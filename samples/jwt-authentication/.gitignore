@@ -1,0 +1,26 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+
+# User secrets
+appsettings.Development.json
+appsettings.Local.json
+*.secrets.json
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Database
+*.db
+*.sqlite
+*.mdf
+*.ldf

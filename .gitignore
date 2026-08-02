@@ -11,334 +11,75 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
-# Visual Studio 2015/2017/2019/2022 cache/options directory
+# Visual Studio
 .vs/
-
-# Visual Studio user-specific files
 *.user
-*.suo
+*.userosscache
 *.sln.docstates
+*.suo
+*.tlog
+*.tlog.*
+*.vcxproj.user
+*.vcxproj.filters.user
 
-# Build results
+# .NET
 *.dll
 *.exe
 *.pdb
-*.deps.json
-*.runtimeconfig.json
-*.runtimeconfig.dev.json
-
-# Roslyn cache directories
-*.ide/
-
-# MSTest test Results
-[Tt]est[Rr]esult*/
-[Bb]uild[Ll]og.*
-
-# NUNIT
-*.VisualState.xml
-TestResult.xml
-nunit-*.xml
-
-# Build Results of an MSBuild target
-bin/
-obj/
-
-# VS 2017/2019/2022 auto generated files
-*.generated.cs
-*.generated.vb
-
-# Generated files by Visual Studio
-*_i.c
-*_p.c
-*_h.h
 *.ilk
 *.meta
 *.obj
-*.iobj
 *.pch
 *.ipdb
-*.pgc
-*.pgd
-*.rsp
-*.sbr
-*.tlb
-*.tli
-*.tlh
-*.tmp
-*.tmp_proj
-*_wpftmp.csproj
-*.log
-*.tlog
-*.vspscc
-*.vssscc
-.builds
-*.pidb
-*.svclog
-*.scc
-
-# Chutzpah Test files
-_Chutzpah*
-
-# Visual C++ cache files
-ipch/
 *.aps
 *.ncb
-*.opendb
 *.opensdf
 *.sdf
-*.vcdb
-*.VC.VC.opendb
-
-# Visual Studio profiler
-*.psess
-*.vsp
-*.vspx
-*.sap
-
-# Visual Studio Trace Files
-*.e2e
-
-# TFS 2012 Local Workspace
-$tf/
-
-# Guidance Automation Toolkit
-*.gpState
-
-# ReSharper is a .NET coding add-in
-_ReSharper*/
-*.[Rr]e[Ss]harper
-*.DotSettings.user
-
-# TeamCity is a build CI server
-_TeamCity*
-
-# DotCover is a Code Coverage Tool
+*.compact
+*.manifest
+*.cache
 *.dotCover
+*.dotTrace
+*.prof
+*.sln.cache
 
-# AxoCover is a Code Coverage Tool
-.axoCover/*
-!.axoCover/settings.json
-
-# Coverlet is a free, cross platform Code Coverage Tool
-coverage[._]*
+# Test results
+[TEST]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
 *.coverage
 *.coveragexml
+*.xml
+testresults/
+TestResults/
 
-# NCrunch
-_NCrunch_*
-.*crunch*.local.xml
-nCrunchTemp_*
-
-# MightyMoose
-*.mm.*
-AutoTest.Net/
-
-# Web workbench (sass)
-.sass-cache/
-
-# Installshield output folder
-[Ee]xpress/
-
-# DocProject is a documentation generator add-in
-DocProject/buildhelp/
-DocProject/Help/*.HxT
-DocProject/Help/*.HxC
-DocProject/Help/*.hhc
-DocProject/Help/*.hhk
-DocProject/Help/*.hhp
-DocProject/Help/*.html
-
-# Click-Once directory
-publish/
-
-# Publish Web Output
-*.[Pp]ublish.xml
-*.azurePubxml
-*.pubxml
-*.publishproj
-
-# Microsoft Azure Web App publish settings
-PublishScripts/
-
-# NuGet Packages
+# NuGet
 *.nupkg
 *.snupkg
+.nuget/
 packages/
-!packages/build/
-packages/**/*.nupkg
-!packages/**/build/**
 
-# NuGet Symbol Packages
-*.snupkg
+# User secrets
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+*.secrets.json
 
-# NuGet Build Output
-obj/project.assets.json
-obj/*.csproj.nuget.*
-obj/*.nupkg
-obj/*.snupkg
-
-# MSBuild project and Visual Studio files
-*.csproj.user
-*.vbproj.user
-*.vcxproj.user
-*.vcxproj.filters.user
-*.csproj.vspscc
-*.vbproj.vspscc
-*.vcxproj.vspscc
-*.fpproj.user
-
-# Office/SharePoint add-in
-AppManifest.xml
-*.scc
-*.vssscc
-
-# Packages directory
-packages/
-!packages/build/
-packages/**/*.nupkg
-!packages/**/build/**
-
-# RIA Services generated code
-Generated_Code/
-
-# SQL Server files
-*.mdf
-*.ldf
-*.ndf
-
-# SQLite files
-*.sqlite
-*.sqlite3
-
-# LocalDB files
-*.ldb
-
-# Backup & report files from converting an old project file
-_UpgradeReport_Files/
-UpgradeLog*.XML
-UpgradeLog*.htm
-ServiceFabricBackup/
-*.rptproj.bak
-
-# SQL Server Management Studio
-*.sqlplan
-
-# Windows Azure build output
-csx/
-*.build.csdef
-
-# Windows Store app package directories and files
-AppPackages/
-BundleArtifacts/
-Package.StoreAssociation.xml
-_pkginfo.txt
-*.appx
-*.appxbundle
-*.appxupload
-
-# Visual Studio cache files
-*.[Cc]ache
-!?*.[Cc]ache/
-
-# Others
-ClientBin/
-~$*
-*~
-*.dbmdl
-*.dbproj.schemaview
-*.jfm
-*.pfx
-*.publishsettings
-orleans.codegen.cs
-
-# RIA Services generated code
-Generated_Code/
-
-# Since there are multiple workflows, uncomment next line to ignore bower_components
-# bower_components/
-
-# Microsoft Azure Emulator
-ecf/
-rcf/
-
-# Windows Store app package directories and files
-AppPackages/
-BundleArtifacts/
-Package.StoreAssociation.xml
-_pkginfo.txt
-*.appx
-*.appxbundle
-*.appxupload
-
-# Visual Studio cache files
-*.[Cc]ache
-!?*.[Cc]ache/
-
-# Others
-ClientBin/
-~$*
-*~
-*.dbmdl
-*.dbproj.schemaview
-*.jfm
-*.pfx
-*.publishsettings
-orleans.codegen.cs
-
-# dotnet tool
-.tools/
-
-# Docker
-docker-compose.override.yml
-.docker/
-
-# Node
-node_modules/
-
-# IDEs
+# IDE
 .idea/
+.vscode/
 *.swp
 *.swo
-.vscode/
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+*~
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Test Results
-TestResults/
-
-# BenchmarkDotNet
-BenchmarkDotNet.Artifacts/
-
-# Application Insights
-ApplicationInsights.config
-
-# Azure Functions
-bin/
-obj/
-
-# Entity Framework Core Migrations
-# !Migrations/  # Keep migrations, they should be committed
-
-# dotnet watch
-*.dotnet-watch.json
-
-# VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-
-# Rider
-.idea/
-*.sln.iml
-
-# Temporary files
+# Misc
+*.log
 *.tmp
 *.temp
+*.bak
+*.backup
+*.old
